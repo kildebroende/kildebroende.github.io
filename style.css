@@ -1,0 +1,8 @@
+@counter-style section-list {
+	system: extends decimal;
+	prefix: '§';
+}
+
+.section-list {
+	list-style: section-list;
+}
